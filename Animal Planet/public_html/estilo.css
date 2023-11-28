@@ -1,0 +1,165 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 60px 30px;
+  text-align: center;
+}
+.jumbotron{
+    background-image: url("imagens/48714.jpg");
+    background-size: 100%;
+    
+    height: 450px;
+}
+/*tratamento para as imagens dos filmes*/
+figure.miniatura-animal{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    
+}
+figure.miniatura-animal img{
+    width: 100%;
+    height: 100%  
+}
+figure.miniatura-animal figcaption{
+position: absolute;
+top: 0px;
+background-color: rgba(70,130,190,0.6);
+width: 100%;
+height: 100%;
+color: white;
+padding: 10px;
+box-sizing: border-box;
+opacity: 0;
+transition-duration: 1s;
+}
+figure.miniatura-animal:hover figcaption{
+    opacity: 1;
+}
+figure.miniatura-animal button{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    border: solid 2px white;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0)
+       
+}
+figure.miniatura-animal button:hover{
+    background-color: white;
+    color: #c12e2a; 
+    
+}
+figure.miniatura-animal h4{
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+
+div#animal01 h3{
+    color: orange;
+    
+}
+div#animal02 h3{
+    color: orange;
+    
+}
+div#animal03 h3{
+    color: orange;
+    
+}
+div#animal04 h3{
+    color: orange;
+    
+}
+div#animal05 h3{
+    color: orange;
+    
+}
+div#animal06 h3{
+    color: orange;
+    
+}
+div#animal07 h3{
+    color: orange;
+    
+}
+div#animal08 h3{
+    color: orange;
+    
+}
+div.row{
+    width: 100 px;
+    height: 100 px;
+}
+figure.textoimg figcaption h1{
+    font-size: 20px;
+    margin: 10px;
+    color: black;
+   padding: 30px;
+}
+figure.textoimg figcaption h2{
+    font-size: 50px;
+    margin: 0 150px 10px;
+    color: #ec971f;
+}
+div.textoimg img{
+    
+    margin: 0 75px 10px;
+}
+/*sombra da caixa*/
+figure.textoimg{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 10px 10px 10px black;
+    
+}
+figure.textoimg img{
+    width: 100%;
+    height: 100%  
+}
+figure.textoimg figcaption{
+position: absolute;
+top: 0px;
+background-color: rgba(153,134,134,3);
+width: 100%;
+height: 100%;
+color: white;
+padding: 10px;
+box-sizing: border-box;
+opacity: 0;
+transition-duration: 1s;
+}
+figure.textoimg:hover figcaption{
+    opacity: 1;
+}
+figure.textoimg figcaption h3{
+    font-size: 18px;
+    margin: 0 150px 10px;
+    color: wheat;
+}
+figcaption.texto1{
+    
+    margin: 0 75px 10px;
+}
+figcaption.texto1 {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 3px 3px 3px 3px black;
+}
+figcaption.texto1 h2{
+    font-size: 18px;
+    
+}
+figcaption.texto1 h1{
+    font-size: 50px;
+    color: #000;
+    
+}
+div.textobox h1{
+    font-size: 50px;
+    color: #122b40;
+}
+
